@@ -14,4 +14,15 @@ func main() {
             fmt.Println(i)
         }
     }
+
+    for i := 1; i < 20; i++ {
+        switch i % 3 {
+        case 0:
+            fmt.Println(i, ": Remainder 0")
+        case 1:
+            fmt.Println(i, ": Remainder 1")
+        case 2:
+            fmt.Println(i, ": Remainder 2")
+        }
+    }
 }
