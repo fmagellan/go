@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "averages"
+import "github.com/fmagellan/go/pkg1/averages"
 
 func main() {
     numbers := []int{1, 2, 3, 4, 5, 6}
